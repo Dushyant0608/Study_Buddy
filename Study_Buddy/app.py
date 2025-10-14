@@ -8,7 +8,7 @@ try:
     load_dotenv()
     api_key = os.getenv("GOOGLE_API_KEY")
 except ImportError:
-    # This will run when deployed on Streamlit Community Cloud
+   
     api_key = st.secrets["GOOGLE_API_KEY"]
 
 
@@ -22,7 +22,7 @@ else:
 def get_gemini_response(prompt):
     """Sends a prompt to the Gemini API and returns the response."""
     try:
-        # --- Using a confirmed available model from your list ---
+       
         model = genai.GenerativeModel('gemini-2.5-flash') 
         
         response = model.generate_content(prompt)
@@ -91,4 +91,5 @@ elif app_mode == "Generate a Quiz":
                     st.markdown(response)
         else:
             st.warning("Please enter a topic.")
+
 
