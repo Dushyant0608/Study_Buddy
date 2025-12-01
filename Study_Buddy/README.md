@@ -25,6 +25,3 @@ GOOGLE_API_KEY="YOUR_API_KEY_HERE"
 Run the Streamlit app:
 
 streamlit run app.py
-
-🔗 Live Application
-[Link to your deployed Streamlit app will go here once deployed!]
