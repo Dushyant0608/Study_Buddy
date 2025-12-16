@@ -6,13 +6,11 @@ StudyBuddy is a lightweight Streamlit application that helps students summarize 
 
 🔍 Features
 
-Text & PDF Summarization
+Text Summarization
 
 Ask Questions About Your Notes
 
 Auto-generated Quizzes (MCQ / Short Answer)
-
-Flashcard Generator
 
 Simple & responsive UI
 
